@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✨Dear Yuki✨</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+
+<body>
+  <div class="cover" id="cover" style="display: none;">
+    <div class="typing-text">
+        <span id="typing-text"></span><br />
+        <span id="typing-text-hbd"></span><br />
+    </div>
+    <div id="birthday-date">2025.7.11</div>
+    <button class="enter-btn" id="enter-btn">点这个</button>
+  </div>
+
+  <!-- 后面你可以在这里添加照片、音乐等内容 -->
+   <div class="page-container">
+        <header class="page-title">
+        <h1>写给你</h1>
+        </header>
+         <main class="page-main">
+        <!-- <div class="content" id="content"> -->
+            <!-- 后续模块内容在这里添加 -->
+            <div class="memory-gallery">
+                <h2 class="section-title">Memories</h2>
+                <div class="thumbnail" onclick="showMedia(1)">
+                    <img src="Resources/img/img1.jpg" alt="奶茶" loading="lazy">
+                    <div class="date-label">2022.01.12</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(2)">
+                    <img src="Resources/img/img2.jpg" alt="212聚餐" loading="lazy">
+                    <div class="date-label">2022.01.15</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(3)">
+                    <img src="Resources/img/img3.jpg" alt="LiveHouse" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+
+                <!-- 视频项 -->
+                <div class="thumbnail" onclick="showMedia(50)">
+                    <img src="Resources/video/LIVEHOUSE-thumbnail.jpg" 
+                        alt="solo">
+                    <div class="video-indicator">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="date-label">2022.07.04</div>
+                </div>
+
+                <div class="thumbnail" onclick="showMedia(4)">
+                    <img src="Resources/img/img4.jpg" alt="树屋" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(5)">
+                    <img src="Resources/img/img5.jpg" alt="志愿活动" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(6)">
+                    <img src="Resources/img/img6.jpg" alt="摸鱼" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(30)">
+                    <img src="Resources/img/img7-add.PNG" alt="一起摸鱼" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(7)">
+                    <img src="Resources/img/img7.jpg" alt="瑞了" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(8)">
+                    <img src="Resources/img/img8.jpg" alt="通宵1" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(9)">
+                    <img src="Resources/img/img9.jpg" alt="回收" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(10)">
+                    <img src="Resources/img/img10.jpg" alt="小憩" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(11)">
+                    <img src="Resources/img/img11.jpg" alt="等小巴" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(12)">
+                    <img src="Resources/img/img12.jpg" alt="下雨" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(13)">
+                    <img src="Resources/img/img13.jpg" alt="恐龙" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(14)">
+                    <img src="Resources/img/img14.jpg" alt="医生" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(15)">
+                    <img src="Resources/img/img15.jpg" alt="特效" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(16)">
+                    <img src="Resources/img/img16.jpg" alt="辛巴" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(17)">
+                    <img src="Resources/img/img17.jpg" alt="喝" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(18)">
+                    <img src="Resources/img/img18.jpg" alt="打卡" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(19)">
+                    <img src="Resources/img/img19.jpg" alt="神秘" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(20)">
+                    <img src="Resources/img/img20.jpg" alt="歪头" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(21)">
+                    <img src="Resources/img/img21.jpg" alt="还是小憩" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(22)">
+                    <img src="Resources/img/img22.jpg" alt="紧张" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(23)">
+                    <img src="Resources/img/img23.jpg" alt="热心" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(24)">
+                    <img src="Resources/img/img24.jpg" alt="YUKI毕业" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(25)">
+                    <img src="Resources/img/img25.jpg" alt="日落" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+
+                <!-- 视频项 -->
+                <div class="thumbnail" onclick="showMedia(51)">
+                    <img src="Resources/video/HuanTing-thumbnail.jpg" 
+                        alt="幻听">
+                    <div class="video-indicator">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <!-- 视频项 -->
+                <div class="thumbnail" onclick="showMedia(52)">
+                    <img src="Resources/video/HuiSeTouXiang-thumbnail.jpg" 
+                        alt="灰色头像">
+                    <div class="video-indicator">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <!-- 视频项 -->
+                <div class="thumbnail" onclick="showMedia(53)">
+                    <img src="Resources/video/XiangXiangZhiZhong-thumbnail.jpg" 
+                        alt="想象之中">
+                    <div class="video-indicator">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <!-- 视频项 -->
+                <div class="thumbnail" onclick="showMedia(54)">
+                    <img src="Resources/video/RuYueErZhi-thumbnail.jpg" 
+                        alt="如约而至">
+                    <div class="video-indicator">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="date-label">2022.07.04</div>
+                </div>
+
+
+
+                <div class="thumbnail" onclick="showMedia(26)">
+                    <img src="Resources/img/img26.jpg" alt="绝美" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+                <div class="thumbnail" onclick="showMedia(27)">
+                    <img src="Resources/img/img27.jpg" alt="S毕业" loading="lazy">
+                    <div class="date-label">2022.07.04</div>
+                </div>
+
+            </div>
+        <!-- </div> -->
+            <div class="words">
+                <p>致全世界最好的师姐：</p>
+                <p>
+                    现在是2025年的7月9日，我在凌晨写下这段文字，静谧的时刻总是思维最活跃。首先要祝你生日快乐~不知道你什么时候会看到这个页面，仔细想想似乎只有在手机和亚克力一起拿的时候才会触发吧，毕竟谁知道普普通通亚力克里面有块NFC呢^ ^。所以看到这个的时候大概率也不是生日那天了，生日快乐似乎有点不太合适了，那就祝你平日快乐吧。
+                </p>
+                <p>
+                    先来讲讲这个页面的来由吧。其实本来只是想把演唱会的音频以一种比较好玩的方式传递给你的（我觉得很好玩（对不起））。结果做了一下功课发现，原来NFC不能写MP3进去啊（悲），于是做着做着就变成这样了。
+                </p>
+                <p>
+                    现在是2025年的7月9日，我在凌晨写下这段文字，静谧的时刻总是思维最活跃。首先要祝你生日快乐~不知道你什么时候会看到这个页面，仔细想想似乎只有在手机和亚克力一起拿的时候才会触发吧，毕竟谁知道普普通通亚力克里面有块NFC呢^ ^。所以看到这个的时候大概率也不是生日那天了，生日快乐似乎有点不太合适了，那就祝你平日快乐吧。
+                </p>
+                <p>
+                    先来讲讲这个页面的来由吧。其实本来只是想把演唱会的音频以一种比较好玩的方式传递给你的（我觉得很好玩（对不起））。结果做了一下功课发现，原来NFC不能写MP3进去啊（悲），于是做着做着就变成这样了。
+                </p>
+                <p>
+                    现在是2025年的7月9日，我在凌晨写下这段文字，静谧的时刻总是思维最活跃。首先要祝你生日快乐~不知道你什么时候会看到这个页面，仔细想想似乎只有在手机和亚克力一起拿的时候才会触发吧，毕竟谁知道普普通通亚力克里面有块NFC呢^ ^。所以看到这个的时候大概率也不是生日那天了，生日快乐似乎有点不太合适了，那就祝你平日快乐吧。
+                </p>
+                <p>
+                    先来讲讲这个页面的来由吧。其实本来只是想把演唱会的音频以一种比较好玩的方式传递给你的（我觉得很好玩（对不起））。结果做了一下功课发现，原来NFC不能写MP3进去啊（悲），于是做着做着就变成这样了。
+                </p>
+            </div>
+        </main>
+            <!-- 音频播放器 -->
+            <footer class="page-footer">
+            <div class="audio-wrapper">
+                <audio controls preload="metadata">
+                <source src="Resources/sound/HuXiZhiYe.m4a" type="audio/mp4">
+                </audio>
+            </div>
+            </footer>
+   </div>
+   <!-- 弹窗 -->
+   <div id="photo-modal" class="modal">
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="">
+            <!-- 视频显示区域 -->
+            <video id="modal-video" class="modal-media" style="display:none;" controls>
+                您的浏览器不支持视频播放
+            </video>
+            <div class="modal-text">
+            <h3 id="modal-title">标题</h3>
+            <p id="modal-desc">描述</p>
+            </div>
+            <span class="modal-close" id="modal-close">&times;</span>
+        </div>
+    </div>
+</body>
+</html>
