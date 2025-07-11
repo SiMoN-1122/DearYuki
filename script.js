@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // 进入按钮逻辑
   document.getElementById("enter-btn").addEventListener("click", () => {
     document.getElementById("cover").style.display = "none";
-    document.getElementById("content").style.display = "block";
+    document.getElementById("page-container").style.display = "block";
   });
 });
 

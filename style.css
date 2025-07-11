@@ -52,12 +52,13 @@ body {
   transition: opacity 0.5s ease;
 }
 
+
 #birthday-date {
   position: fixed;
   bottom: 20px;       /* 距离底部10px，可以根据需要调整 */
   left: 50%;          /* 水平位置先移到屏幕中央 */
   transform: translateX(-50%);  /* 再向左移动自身宽度的一半，实现真正居中 */
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #fffacd;
   white-space: nowrap;
   pointer-events: none; /* 不影响点击操作，可选 */
@@ -68,7 +69,17 @@ body {
   font-style: italic;
 }
 
-
+@media screen and (max-width: 768px) {
+  #typing-text{
+    font-size: 1.5rem; /* 你希望在手机上显示的字号，可以根据需要调整 */
+  }
+  #typing-text-hbd {
+    font-size: 3rem; /* 你希望在手机上显示的字号，可以根据需要调整 */
+  }
+  #birthday-date {
+    font-size: 1rem;
+  }
+}
 
 /* 打字光标动画 */
 @keyframes blink {
@@ -114,29 +125,38 @@ body {
 }
 
 
-
-
-/* 按钮样式 */
 .enter-btn {
   margin-top: 30px;
-  padding: 10px 20px;
+  padding: 12px 40px;
   font-size: 1.1rem;
   color: white;
   background-color: #4caf50;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* 鼠标悬停：放大+发光 */
 .enter-btn:hover {
   background-color: #388e3c;
+  transform: scale(1.05);
+  box-shadow: 0 0 12px 4px rgba(76, 175, 80, 0.6);
 }
+
+/* 点击时：缩小模拟按下感 */
+.enter-btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 轻微内缩阴影 */
+}
+
+
+
+
 
 /* 移动端优化 */
 @media (max-width: 600px) {
-  .typing-text {
-    font-size: 1.2rem;
-  }
   .enter-btn {
     font-size: 1rem;
     padding: 8px 16px;
@@ -198,14 +218,14 @@ body {
 .words p {
   text-indent: 2em;           /* 每段首行缩进 */
   margin-bottom: 0em;         /* 段落间距 */
-  font-size: 1.2rem;    /* 调整字体大小（可根据需要修改） */
+  font-size: 1.4rem;    /* 调整字体大小（可根据需要修改） */
   line-height: 2;
 }
 
 .words p:first-child {
   text-indent: 0;             /* 第一段顶格 */
   font-weight: bold;
-  font-size: 1.5rem;    /* 调整字体大小（可根据需要修改） */
+  font-size: 1.6rem;    /* 调整字体大小（可根据需要修改） */
 }
 
 .words {
@@ -269,7 +289,7 @@ body {
   /* font-weight: bold;            加粗 */
   /* text-decoration: underline;  */
   margin: 0px 0;               /* 上下边距 */
-  font-size: 1.2rem;            /* 字体大小可调整 */
+  font-size: 1.4rem;            /* 字体大小可调整 */
   align-self: flex-start;
   margin-top: 0px;       /* 与容器顶部距离 */
   margin-bottom: 0px;   /* 与下方内容的距离 */
