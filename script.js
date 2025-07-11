@@ -254,7 +254,7 @@ const mediaItems = {
 
     30: {
         type: 'image',
-        src: "Resources/img/img7-add.png",
+        src: "Resources/img/img7-add.PNG",
         title: "一起摸鱼",
         desc: "是不是有人说了瑞"
     },
