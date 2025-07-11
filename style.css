@@ -279,6 +279,14 @@ body {
   .page-title h1 {
     font-size: 2rem; /* 手机端字体变小 */
   }
+
+  .words p {
+    font-size: 1rem;         /* 手机上普通段落的字号更小 */
+  }
+
+  .words p:first-child {
+    font-size: 1.2rem;       /* 手机上第一段的字号也相应缩小 */
+  }
 }
 
 /* 小标题 */
