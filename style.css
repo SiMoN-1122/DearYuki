@@ -197,8 +197,9 @@ body {
 
 .words p {
   text-indent: 2em;           /* 每段首行缩进 */
-  margin-bottom: 0.3em;         /* 段落间距 */
+  margin-bottom: 0em;         /* 段落间距 */
   font-size: 1.2rem;    /* 调整字体大小（可根据需要修改） */
+  line-height: 2;
 }
 
 .words p:first-child {

@@ -111,37 +111,37 @@ const mediaItems = {
         type: 'image',
         src: "Resources/img/img4.jpg",
         title: "一句歌词会绑定一段记忆",
-        desc: "刚开始唱的时候你和我说，你第一次听的时候觉得这首歌的歌词好神奇。“你坐在我的右边，我也坐你的右边”，我说那不就是面对面吗，你笑着说对啊。现在发现原来是相邻荡秋千"
+        desc: "刚开始唱的时候你和我说，你第一次听的时候觉得这首歌的歌词好神奇。“你坐在我的右边，我也坐你的右边”，我说那不就是面对面吗，你笑着说对啊。现在发现原来是相邻荡秋千。"
     },
     5: {
         type: 'image',
         src: "Resources/img/img5.jpg",
         title: "记得这个蛋糕莫",
-        desc: "在义工志愿活动的时候做的，印象很深是因为那天第一次见到你短头发的样子，实在是特别好看，请务必要焊在头上"
+        desc: "在义工志愿活动的时候做的，印象很深是因为那天第一次见到你短头发的样子，实在是特别好看，请务必要焊在头上。"
     },
     6: {
         type: 'image',
         src: "Resources/img/img6.jpg",
         title: "在干什么？",
-        desc: "有人的摸鱼铁证被我抓到了"
+        desc: "有人的摸鱼铁证被我抓到了^ ^"
     },
     7: {
         type: 'image',
         src: "Resources/img/img7.jpg",
         title: "瑞了",
-        desc: "自此爱上葡萄冰萃"
+        desc: "自此爱上葡萄冰萃，凌晨实验室还有这么多人吗，有点意思。"
     },
     8: {
         type: 'image',
         src: "Resources/img/img8.jpg",
         title: "第一次在实验室通宵？？",
-        desc: "天亮的时候居然是粉色的"
+        desc: "天亮的时候居然是粉色的，其实是一段很幸福的经历。"
     },
     9: {
         type: 'image',
         src: "Resources/img/img9.jpg",
         title: "废品回收",
-        desc: "可以玩拼图"
+        desc: "可以玩拼图，拼拼拼，拼凑好心情<3"
     },
     10: {
         type: 'image',
@@ -152,8 +152,8 @@ const mediaItems = {
     11: {
         type: 'image',
         src: "Resources/img/img11.jpg",
-        title: "这么巧",
-        desc: "你也要早起啊"
+        title: "小巴站",
+        desc: "这么巧，你也是苦命早八人。"
     },
     12: {
         type: 'image',
@@ -164,99 +164,99 @@ const mediaItems = {
     13: {
         type: 'image',
         src: "Resources/img/img13.jpg",
-        title: "去打印文档了",
-        desc: "这个恐龙十分得可爱，准备占为己有"
+        title: "去打印竞赛文档了",
+        desc: "这个恐龙十分得可爱，准备占为己有。"
     },
     14: {
         type: 'image',
         src: "Resources/img/img14.jpg",
         title: "医生怎么说",
-        desc: "doctor"
+        desc: "DOCTOR."
     },
     15: {
         type: 'image',
         src: "Resources/img/img15.jpg",
         title: "在用什么特效",
-        desc: "这张很搞笑"
+        desc: "这张很搞笑，很喜欢这一张，鲜艳而富有张力。"
     },
     16: {
         type: 'image',
         src: "Resources/img/img16.jpg",
-        title: "辛巴",
+        title: "辛巴——！",
         desc: "此处应有狮子王bgm"
     },
     17: {
         type: 'image',
         src: "Resources/img/img17.jpg",
         title: "可以喝",
-        desc: "喝奶茶就像喝水一样简单"
+        desc: "喝奶茶就像喝水一样简单而健康"
     },
     18: {
         type: 'image',
         src: "Resources/img/img18.jpg",
         title: "神秘打卡点",
-        desc: ""
+        desc: "我看他们都在拍我也拍了————不愿透露姓名的街头路人"
     },
     19: {
         type: 'image',
         src: "Resources/img/img19.jpg",
         title: "文艺范",
-        desc: "看房中"
+        desc: "大当家正在物色新房"
     },
     20: {
         type: 'image',
         src: "Resources/img/img20.jpg",
         title: "可以歪头",
-        desc: "神秘缆车出没⚠⚠⚠"
+        desc: "⚠️⚠️⚠️神秘缆车出没🚡🚡⚠️⚠️⚠️"
     },
     21: {
         type: 'image',
         src: "Resources/img/img21.jpg",
-        title: "怎么又在打比赛",
-        desc: "Zzz"
+        title: "Zzz",
+        desc: "怎么又在打比赛"
     },
     22: {
         type: 'image',
         src: "Resources/img/img22.jpg",
         title: "火急火燎",
-        desc: "有一点紧张"
+        desc: "其实不只是有一点紧张"
     },
     23: {
         type: 'image',
         src: "Resources/img/img23.jpg",
-        title: "拍照大师",
+        title: "摄影师",
         desc: "热心市民李女士正在协助大合照"
     },
     24: {
         type: 'image',
         src: "Resources/img/img24.jpg",
         title: "热烈庆祝YUKI毕业",
-        desc: ""
+        desc: "🌸🌻美得不像话🌼🌹🪻"
     },
     25: {
         type: 'image',
         src: "Resources/img/img25.jpg",
         title: "疯狂星期四！",
-        desc: "下班能看见晚霞也是很幸福的一件事情"
+        desc: "下班能看见晚霞也是很幸福的一件事"
     },
     26: {
         type: 'image',
         src: "Resources/img/img26.jpg",
         title: "绝美",
-        desc: "这张太好看了，轻轻地放在这里"
+        desc: "这张太美到失语了，轻轻地放在这里"
     },
     27: {
         type: 'image',
         src: "Resources/img/img27.jpg",
         title: "热烈庆祝我毕业",
-        desc: "两年后再来找你拍"
+        desc: "两年后再来找你拍，期待紫袍<3"
     },
 
     30: {
         type: 'image',
         src: "Resources/img/img7-add.png",
         title: "一起摸鱼",
-        desc: ""
+        desc: "是不是有人说了瑞"
     },
 
     //视频项
@@ -286,13 +286,13 @@ const mediaItems = {
         src: "Resources/video/XiangXiangZhiZhong.mp4",
         thumbnail: "Resources/video/XiangXiangZhiZhong-thumbnail.jpg",
         title: "想象中很不同",
-        desc: "想象中一切都和后来不同"
+        desc: ""
     },
     54: {
         type: 'video',
         src: "Resources/video/RuYueErZhi.mp4",
         thumbnail: "Resources/video/RuYueErZhi-thumbnail.jpg",
-        title: "等到记忆只剩精华，等到笑容不掺伪装",
+        title: "等到记忆只剩精华",
         desc: ""
     },
 };
