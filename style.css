@@ -234,6 +234,8 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;   /* 居中 */
+  box-sizing: border-box;
+  object-fit: contain; /* 图片完整显示，不裁剪，不拉伸 */
 }
 
 @media screen and (max-width: 768px) {
