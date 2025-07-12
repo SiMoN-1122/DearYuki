@@ -240,7 +240,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .words img {
-    width: 50%;    /* 手机端宽度撑满容器 */
+    width: 65%;    /* 手机端宽度撑满容器 */
     max-width: 400px;
   }
 }

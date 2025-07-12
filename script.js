@@ -243,7 +243,7 @@ const mediaItems = {
         type: 'image',
         src: "Resources/img/img26.jpg",
         title: "绝美",
-        desc: "这张太美到失语了，轻轻地放在这里"
+        desc: "这张美到失语了，轻轻地放在这里"
     },
     27: {
         type: 'image',
