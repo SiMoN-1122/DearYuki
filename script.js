@@ -259,6 +259,13 @@ const mediaItems = {
         desc: "是不是有人说了瑞"
     },
 
+    31: {
+        type: 'image',
+        src: "Resources/img/img-livehouse.jpg",
+        title: '"我们也来拍一张"',
+        desc: ""
+    },
+
     //视频项
     50: {
         type: 'video',
